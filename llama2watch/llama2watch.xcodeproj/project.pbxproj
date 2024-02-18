@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F904E0922B813A6400D1E4B0 /* llama2watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F904E0912B813A6400D1E4B0 /* llama2watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F904E0972B813A6400D1E4B0 /* llama2watchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F904E0962B813A6400D1E4B0 /* llama2watchApp.swift */; };
+		F904E0992B813A6400D1E4B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F904E0982B813A6400D1E4B0 /* ContentView.swift */; };
+		F904E09B2B813A6500D1E4B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F904E09A2B813A6500D1E4B0 /* Assets.xcassets */; };
+		F904E09E2B813A6500D1E4B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F904E09D2B813A6500D1E4B0 /* Preview Assets.xcassets */; };
+		F904E0AB2B813A7500D1E4B0 /* run.c in Sources */ = {isa = PBXBuildFile; fileRef = F904E0AA2B813A7500D1E4B0 /* run.c */; };
+		F904E0AF2B813E8500D1E4B0 /* stories42M.bin in Resources */ = {isa = PBXBuildFile; fileRef = F904E0AE2B813E8500D1E4B0 /* stories42M.bin */; };
+		F904E0B02B813E8500D1E4B0 /* stories42M.bin in Resources */ = {isa = PBXBuildFile; fileRef = F904E0AE2B813E8500D1E4B0 /* stories42M.bin */; };
+		F904E0B22B813E8800D1E4B0 /* tokenizer.bin in Resources */ = {isa = PBXBuildFile; fileRef = F904E0B12B813E8800D1E4B0 /* tokenizer.bin */; };
+		F904E0B32B813E8800D1E4B0 /* tokenizer.bin in Resources */ = {isa = PBXBuildFile; fileRef = F904E0B12B813E8800D1E4B0 /* tokenizer.bin */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F904E0932B813A6400D1E4B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F904E0852B813A6400D1E4B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F904E0902B813A6400D1E4B0;
+			remoteInfo = "llama2watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F904E0A42B813A6500D1E4B0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F904E0922B813A6400D1E4B0 /* llama2watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F904E08B2B813A6400D1E4B0 /* llama2watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = llama2watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F904E0912B813A6400D1E4B0 /* llama2watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "llama2watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F904E0962B813A6400D1E4B0 /* llama2watchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = llama2watchApp.swift; sourceTree = "<group>"; };
+		F904E0982B813A6400D1E4B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F904E09A2B813A6500D1E4B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F904E09D2B813A6500D1E4B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F904E0A82B813A7500D1E4B0 /* llama2watch Watch App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "llama2watch Watch App-Bridging-Header.h"; sourceTree = "<group>"; };
+		F904E0AA2B813A7500D1E4B0 /* run.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = run.c; sourceTree = "<group>"; };
+		F904E0AD2B813DED00D1E4B0 /* run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = run.h; sourceTree = "<group>"; };
+		F904E0AE2B813E8500D1E4B0 /* stories42M.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = stories42M.bin; sourceTree = "<group>"; };
+		F904E0B12B813E8800D1E4B0 /* tokenizer.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = tokenizer.bin; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F904E08E2B813A6400D1E4B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F904E0842B813A6400D1E4B0 = {
+			isa = PBXGroup;
+			children = (
+				F904E0952B813A6400D1E4B0 /* llama2watch Watch App */,
+				F904E08C2B813A6400D1E4B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F904E08C2B813A6400D1E4B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F904E08B2B813A6400D1E4B0 /* llama2watch.app */,
+				F904E0912B813A6400D1E4B0 /* llama2watch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F904E0952B813A6400D1E4B0 /* llama2watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				F904E0962B813A6400D1E4B0 /* llama2watchApp.swift */,
+				F904E0982B813A6400D1E4B0 /* ContentView.swift */,
+				F904E0AD2B813DED00D1E4B0 /* run.h */,
+				F904E0B12B813E8800D1E4B0 /* tokenizer.bin */,
+				F904E0AE2B813E8500D1E4B0 /* stories42M.bin */,
+				F904E0AA2B813A7500D1E4B0 /* run.c */,
+				F904E09A2B813A6500D1E4B0 /* Assets.xcassets */,
+				F904E09C2B813A6500D1E4B0 /* Preview Content */,
+				F904E0A82B813A7500D1E4B0 /* llama2watch Watch App-Bridging-Header.h */,
+			);
+			path = "llama2watch Watch App";
+			sourceTree = "<group>";
+		};
+		F904E09C2B813A6500D1E4B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F904E09D2B813A6500D1E4B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F904E08A2B813A6400D1E4B0 /* llama2watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F904E0A52B813A6500D1E4B0 /* Build configuration list for PBXNativeTarget "llama2watch" */;
+			buildPhases = (
+				F904E0892B813A6400D1E4B0 /* Resources */,
+				F904E0A42B813A6500D1E4B0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F904E0942B813A6400D1E4B0 /* PBXTargetDependency */,
+			);
+			name = llama2watch;
+			productName = llama2watch;
+			productReference = F904E08B2B813A6400D1E4B0 /* llama2watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		F904E0902B813A6400D1E4B0 /* llama2watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F904E0A12B813A6500D1E4B0 /* Build configuration list for PBXNativeTarget "llama2watch Watch App" */;
+			buildPhases = (
+				F904E08D2B813A6400D1E4B0 /* Sources */,
+				F904E08E2B813A6400D1E4B0 /* Frameworks */,
+				F904E08F2B813A6400D1E4B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "llama2watch Watch App";
+			productName = "llama2watch Watch App";
+			productReference = F904E0912B813A6400D1E4B0 /* llama2watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F904E0852B813A6400D1E4B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F904E08A2B813A6400D1E4B0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F904E0902B813A6400D1E4B0 = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+				};
+			};
+			buildConfigurationList = F904E0882B813A6400D1E4B0 /* Build configuration list for PBXProject "llama2watch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F904E0842B813A6400D1E4B0;
+			productRefGroup = F904E08C2B813A6400D1E4B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F904E08A2B813A6400D1E4B0 /* llama2watch */,
+				F904E0902B813A6400D1E4B0 /* llama2watch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F904E0892B813A6400D1E4B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F904E0AF2B813E8500D1E4B0 /* stories42M.bin in Resources */,
+				F904E0B22B813E8800D1E4B0 /* tokenizer.bin in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F904E08F2B813A6400D1E4B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F904E09E2B813A6500D1E4B0 /* Preview Assets.xcassets in Resources */,
+				F904E0B02B813E8500D1E4B0 /* stories42M.bin in Resources */,
+				F904E09B2B813A6500D1E4B0 /* Assets.xcassets in Resources */,
+				F904E0B32B813E8800D1E4B0 /* tokenizer.bin in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F904E08D2B813A6400D1E4B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F904E0AB2B813A7500D1E4B0 /* run.c in Sources */,
+				F904E0992B813A6400D1E4B0 /* ContentView.swift in Sources */,
+				F904E0972B813A6400D1E4B0 /* llama2watchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F904E0942B813A6400D1E4B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F904E0902B813A6400D1E4B0 /* llama2watch Watch App */;
+			targetProxy = F904E0932B813A6400D1E4B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F904E09F2B813A6500D1E4B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		F904E0A02B813A6500D1E4B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		F904E0A22B813A6500D1E4B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"llama2watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = N4ALS8PN9L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = llama2watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyler.llama2watch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "llama2watch Watch App/llama2watch Watch App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		F904E0A32B813A6500D1E4B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"llama2watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = N4ALS8PN9L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = llama2watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyler.llama2watch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "llama2watch Watch App/llama2watch Watch App-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		F904E0A62B813A6500D1E4B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4ALS8PN9L;
+				INFOPLIST_KEY_CFBundleDisplayName = llama2watch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyler.llama2watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F904E0A72B813A6500D1E4B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4ALS8PN9L;
+				INFOPLIST_KEY_CFBundleDisplayName = llama2watch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyler.llama2watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F904E0882B813A6400D1E4B0 /* Build configuration list for PBXProject "llama2watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F904E09F2B813A6500D1E4B0 /* Debug */,
+				F904E0A02B813A6500D1E4B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F904E0A12B813A6500D1E4B0 /* Build configuration list for PBXNativeTarget "llama2watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F904E0A22B813A6500D1E4B0 /* Debug */,
+				F904E0A32B813A6500D1E4B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F904E0A52B813A6500D1E4B0 /* Build configuration list for PBXNativeTarget "llama2watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F904E0A62B813A6500D1E4B0 /* Debug */,
+				F904E0A72B813A6500D1E4B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F904E0852B813A6400D1E4B0 /* Project object */;
+}
